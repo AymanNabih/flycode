@@ -3,7 +3,7 @@
 
 ## Installation
 
-I'm using Ubuntu 16.04 with Python 2.7 already installed
+I'm using Ubuntu 16.04 LTS with Python 2.7.12 already installed
 
     sudo apt install python-pip
 
