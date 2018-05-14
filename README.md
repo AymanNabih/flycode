@@ -54,7 +54,8 @@ Source: [A Julia package based on the paper: A neural algorithm for a fundamenta
       
       julia
       
-      Ṕkg.add("MNIST")
+      
+      Ṕkg.add("MNIST")
       
       Ṕkg.add("Plots")
       
