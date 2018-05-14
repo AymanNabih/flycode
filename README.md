@@ -1,6 +1,7 @@
 # FlyCode: A new fruit fly-based algorithm implementation and comparison  with others codes already available
 
 
+
 ## Preparing the environment
 Here is how I configured the software platform to run a multi-language environment
 
@@ -19,9 +20,14 @@ Note: This code has been tested on Ubuntu 16.04 LTS.
       sudo docker run -it -p 8888:8888 jupyter/datascience-notebook
 - After downloading, the container will be started, just follow the instructions on terminal.
 
+
+
 ## Setting up the fuit fly-based codes already implemented on the literature
 
-**3. Configuring and Testing the Fly-LSH code**
+**3. Configuring and testing other codes to compare**
+Here I'll show how to configure the environment to run at least (5) implementations based on Python and Julia languages
+
+**3.1. Fly-LSH**
 
 Source: [A Python implementation of efficient LSH inspired by fruit fly brain](https://github.com/dataplayer12/Fly-LSH)
 
@@ -39,7 +45,7 @@ Source: [A Python implementation of efficient LSH inspired by fruit fly brain](h
       conda list
 - Testing the Fly-LSH notebook: From the Jupyter Notebook, you can open `notebook.ipynb` on the path `work/Fly-LSH/` and then you can try to execute the code and see how it works.
 
-**4. Configuring and Testing the BuzzHash**
+**3.2. BuzzHash**
 
 Source: [A Julia package based on the paper: A neural algorithm for a fundamental computing problem. Science, 358, 6364:793-796](https://github.com/WilCrofter/BuzzHash)
 
@@ -69,18 +75,49 @@ Source: [A Julia package based on the paper: A neural algorithm for a fundamenta
 
 - Testing the Buzz-Hash notebooks: From the Jupyter Notebook, you can open `usage.ipynb and` or `inverse.ipynb` on the path `work/Buzz-Hash/` and then you can try to execute the code and see how it works.
 
+**3.3. FAISS (Facebook AI Research)**
+
+Source: [Facebook AI Research: FAISS library comparison with the "Fly algorithm"](https://github.com/facebookresearch/faiss/wiki/Comparison-with-LSH)
+
+- Note: The code is still in progress, according Facebook AI Research team.
+
+**3.4. A neural algorithm for a fundamental computing problem**
+
+Paper: http://science.sciencemag.org/content/358/6364/793
+
+- Note: Code and data at https://bitbucket.org/navlakha/flylsh is with "access denied." We have required the access to the code and will see what happen.
+
+**3.5. *A clustering neural network model of insect olfaction*
+
+Paper: https://www.biorxiv.org/content/early/2018/01/27/226746
+
+- Note: The code to GitHub very soon, according the paper authors.
+
+
+
 ## The proposed fruit fly code
 
 - Under development...
+
+
 
 ## References
 
 [1] Jupyter Notebook Data Science Stack
 - https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook
 
-[2] An implementation of efficient LSH inspired by fruit fly brain
+[2] Dasgupta, S., C. F. Stevens, and S. Navlakha (2017). *A neural algorithm for a fundamental computing problem*. Science, 358, 6364:793-796.
+- http://science.sciencemag.org/content/358/6364/793
+
+[3] An implementation of efficient LSH, inspired by fruit fly brain algorithm in [2]
 - https://github.com/dataplayer12/Fly-LSH
 - https://medium.com/@jaiyamsharma/efficient-nearest-neighbors-inspired-by-the-fruit-fly-brain-6ef8fed416ee
 
-[3] A Julia package based on S. Dasgupta, C. F. Stevens, and S. Navlakha (2017). A neural algorithm for a fundamental computing problem. Science, 358, 6364:793-796
+[4] A Julia package implementation based on [2]
 - https://github.com/WilCrofter/BuzzHash
+
+[5] Facebook AI Research: FAISS library comparison with the "Fly algorithm" in [2]
+- https://github.com/facebookresearch/faiss/wiki/Comparison-with-LSH
+
+[6] Pehlevan, C., A. Genkin, D. B. Chklovskii (2018). *A clustering neural network model of insect olfaction*.
+- https://www.biorxiv.org/content/early/2018/01/27/226746
