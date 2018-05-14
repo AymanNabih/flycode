@@ -1,4 +1,4 @@
-# FlyCode: A new fruit fly-based algorithm implementation and comparison  with others codes already available
+# FruitFlyCode: A new fruit fly-based algorithm implementation and comparison  with others codes already available
 
 
 
@@ -95,7 +95,7 @@ Paper: https://www.biorxiv.org/content/early/2018/01/27/226746
 
 
 
-## The proposed fruit fly code
+## The proposed Fruit Fly code
 
 - Under development...
 
