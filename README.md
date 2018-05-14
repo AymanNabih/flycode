@@ -30,11 +30,11 @@ Source: [A Python implementation of efficient LSH inspired by fruit fly brain](h
       cd work/
       git clone https://github.com/dataplayer12/Fly-LSH.git
 
-- Installing requirements.txt in folder Fly-LSH:
+- Installing `requirements.txt` from the folder Fly-LSH:
 
       cd Fly-LSH/
       conda install --yes --file requirements.txt
-- (Optional) Verify packege installations:
+- (Optional) Verifying packages installation:
       
       conda list
 - Testing the Fly-LSH notebook: From the Jupyter Notebook, you can open `notebook.ipynb` on the path `work/Fly-LSH/` and then you can try to execute the code and see how it works.
@@ -48,7 +48,7 @@ Source: [A Julia package based on the paper: A neural algorithm for a fundamenta
       cd work/
       git clone https://github.com/WilCrofter/BuzzHash.git
 
-- Installing the required Julia Packages:
+- Installing the required Julia packages:
 
       cd BuzzHash/
       
