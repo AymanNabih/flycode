@@ -19,6 +19,8 @@ Note: This code has been tested on Ubuntu 16.04 LTS.
       sudo docker run -it -p 8888:8888 jupyter/datascience-notebook
 - After downloading, the container will be started, just follow the instructions on terminal.
 
+## Setting up the fuit fly-based codes already implemented on the literature
+
 **3. Configuring and Testing the Fly-LSH code**
 
 Source: [A Python implementation of efficient LSH inspired by fruit fly brain](https://github.com/dataplayer12/Fly-LSH)
@@ -64,6 +66,10 @@ Source: [A Julia package based on the paper: A neural algorithm for a fundamenta
       Pkg.add("BuzzHash")
 
 - Testing the Buzz-Hash notebooks: From the Jupyter Notebook, you can open `usage.ipynb and` or `inverse.ipynb` on the path `work/Buzz-Hash/` and then you can try to execute the code and see how it works.
+
+## The proposed fruit fly code
+
+- Under development...
 
 ## References
 
