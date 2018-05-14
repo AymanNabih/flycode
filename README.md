@@ -1,10 +1,8 @@
-# FlyCode
-A new fruit fly-based algorithm implementation and comparison  with others codes already available.
+# FlyCode | A new fruit fly-based algorithm implementation and comparison  with others codes already available
 
 
-This is how I configured the Fly-LSH code in order to compare that with the FlyCode I'll implement later on this repository
-
-## Installation
+## Preparing the environment
+Here is how I configured the software platform to run a multi-language environment
 
 I'm using Ubuntu 16.04 LTS with Python 2.7.12 already installed
 
