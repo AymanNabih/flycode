@@ -22,9 +22,10 @@ Note: This code has been tested on Ubuntu 16.04 LTS.
 
 
 
-## Setting up fuit fly-based codes available on the literature
+## Setting up fruit fly-based codes available on the literature
 
 **3. Configuring and testing other codes to compare**
+
 Here I'll show how to configure the environment to run and test at least (5) implementations written in Python and Julia languages
 
 **3.1. Fly-LSH**
