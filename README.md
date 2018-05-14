@@ -6,7 +6,7 @@ Here is how I configured the software platform to run a multi-language environme
 
 I'm using Ubuntu 16.04 LTS with Python 2.7.12 already installed
 
-    sudo apt install python-pip
+**1. [Install Docker CE](https://github.com/mchancan/ubuntu-install/blob/master/docker/README.md)**
 
 ## Reference
 
