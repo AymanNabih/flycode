@@ -3,7 +3,7 @@
 
 
 ## Preparing the environment
-Here is how I configured the software platform to run a multi-language environment
+Here is how I configured the software platform to run a multi-language environment.
 
 Note: This code has been tested on Ubuntu 16.04 LTS.
 
@@ -22,10 +22,10 @@ Note: This code has been tested on Ubuntu 16.04 LTS.
 
 
 
-## Setting up the fuit fly-based codes already implemented on the literature
+## Setting up fuit fly-based codes available on the literature
 
 **3. Configuring and testing other codes to compare**
-Here I'll show how to configure the environment to run at least (5) implementations based on Python and Julia languages
+Here I'll show how to configure the environment to run and test at least (5) implementations written in Python and Julia languages
 
 **3.1. Fly-LSH**
 
@@ -87,7 +87,7 @@ Paper: http://science.sciencemag.org/content/358/6364/793
 
 - Note: Code and data at https://bitbucket.org/navlakha/flylsh is with "access denied." We have required the access to the code and will see what happen.
 
-**3.5. *A clustering neural network model of insect olfaction*
+**3.5. A clustering neural network model of insect olfaction**
 
 Paper: https://www.biorxiv.org/content/early/2018/01/27/226746
 
