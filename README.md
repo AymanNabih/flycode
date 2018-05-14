@@ -17,9 +17,10 @@ Note: This code has been tested on Ubuntu 16.04 LTS.
 - The command I used to install the container:
 
       sudo docker run -it -p 8888:8888 jupyter/datascience-notebook
-- After downloading the container will be started, just follow the instructions on terminal.
+- After downloading, the container will be started, just follow the instructions on terminal.
 
 **3. Configuring and Testing the Fly-LSH code**
+
 Source: [A Python implementation of efficient LSH inspired by fruit fly brain](https://github.com/dataplayer12/Fly-LSH)
 
 - From the Jupyter Notebook obtained in Section 2, open a new Terminal window and from that run:
@@ -34,11 +35,10 @@ Source: [A Python implementation of efficient LSH inspired by fruit fly brain](h
 - (Optional) Verify packege installations:
       
       conda list
-- Testing the Fly-LSH notebook:
-
-    From the Jupyter Notebook, you can open `notebook.ipynb` on the path `work/Fly-LSH/` and then you can try to execute the code and see how it works.
+- Testing the Fly-LSH notebook: From the Jupyter Notebook, you can open `notebook.ipynb` on the path `work/Fly-LSH/` and then you can try to execute the code and see how it works.
 
 **4. Configuring and Testing the BuzzHash**
+
 Source: [A Julia package based on the paper: A neural algorithm for a fundamental computing problem. Science, 358, 6364:793-796](https://github.com/WilCrofter/BuzzHash)
 
 - From the Jupyter Notebook obtained in Section 2, open a new Terminal window and from that run:
@@ -50,25 +50,29 @@ Source: [A Julia package based on the paper: A neural algorithm for a fundamenta
 
       cd BuzzHash/
       julia
+      
       Ṕkg.add("MNIST")
+      
       Ṕkg.add("Plots")
+      
       Pkg.clone(pwd(), "BuzzHash")
+      
       Pkg.build("BuzzHash")
+      
       Pkg.test("BuzzHash")
+      
       Pkg.add("BuzzHash")
 
-- Testing the Buzz-Hash notebooks:
-
-    From the Jupyter Notebook, you can open `usage.ipynb and` or `inverse.ipynb` on the path `work/Buzz-Hash/` and then you can try to execute the code and see how it works.
+- Testing the Buzz-Hash notebooks: From the Jupyter Notebook, you can open `usage.ipynb and` or `inverse.ipynb` on the path `work/Buzz-Hash/` and then you can try to execute the code and see how it works.
 
 ## References
 
-[1] **Jupyter Notebook Data Science Stack**
+[1] Jupyter Notebook Data Science Stack
 - https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook
 
-[2] **An implementation of efficient LSH inspired by fruit fly brain**
+[2] An implementation of efficient LSH inspired by fruit fly brain
 - https://github.com/dataplayer12/Fly-LSH
 - https://medium.com/@jaiyamsharma/efficient-nearest-neighbors-inspired-by-the-fruit-fly-brain-6ef8fed416ee
 
-[3] **A Julia package based on S. Dasgupta, C. F. Stevens, and S. Navlakha (2017). A neural algorithm for a fundamental computing problem. Science, 358, 6364:793-796**
+[3] A Julia package based on S. Dasgupta, C. F. Stevens, and S. Navlakha (2017). A neural algorithm for a fundamental computing problem. Science, 358, 6364:793-796
 - https://github.com/WilCrofter/BuzzHash
