@@ -1,4 +1,4 @@
-# FlyCode | A new fruit fly-based algorithm implementation and comparison  with others codes already available
+# FlyCode: A new fruit fly-based algorithm implementation and comparison  with others codes already available
 
 
 ## Preparing the environment
