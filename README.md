@@ -51,9 +51,10 @@ Source: [A Julia package based on the paper: A neural algorithm for a fundamenta
 - Installing the required Julia Packages:
 
       cd BuzzHash/
+      
       julia
       
-      Ṕkg.add("MNIST")
+      Ṕkg.add("MNIST")
       
       Ṕkg.add("Plots")
       
