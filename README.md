@@ -4,7 +4,7 @@
 ## Preparing the environment
 Here is how I configured the software platform to run a multi-language environment
 
-- This code has been tested on Ubuntu 16.04 LTS.
+Note: This code has been tested on Ubuntu 16.04 LTS.
 
 **1. Installing Docker Community Edition**
 
