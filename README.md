@@ -85,13 +85,13 @@ Source: [Facebook AI Research: FAISS library comparison with the "Fly algorithm"
 
 Paper: http://science.sciencemag.org/content/358/6364/793
 
-- Note: Code and data at https://bitbucket.org/navlakha/flylsh is with "access denied." We have required the access to the code and will see what happen.
+- Note: We have required the access to the code and will see what happen. Code and data at https://bitbucket.org/navlakha/flylsh is with "access denied." 
 
 **3.5. A clustering neural network model of insect olfaction**
 
 Paper: https://www.biorxiv.org/content/early/2018/01/27/226746
 
-- Note: The code to GitHub very soon, according the paper authors.
+- Note: The code will by posted to GitHub, according to the authors of the paper.
 
 
 
