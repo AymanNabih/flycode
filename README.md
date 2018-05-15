@@ -17,7 +17,7 @@ FruitFlyCode: A new fruit fly-based algorithm implementation and comparison  wit
    
 # 1. Hardware
 The code shown here has been tested on Ubuntu 16.04 LTS, the hardware configuration is detailed as follow:
-- 1x Processor Intel Core i7-8700K CPU @ 3.7GHz (6 cores, 12 threads)
+- 1x Processor Intel Core i7-8700K @ 3.7GHz (6 CPU cores, 12 threads)
 - 4x Memory 8 GB DIMM DDR4 2400 MHz (32 GB RAM)
 - 2x GeForce GTX 1080 Ti, 11 Gbps, 11 GB GDDR5X, 3584 CUDA cores, 352-bit, 484 GB/sec (7168 CUDA cores)
 - 1x SSD 512 GB for OS
