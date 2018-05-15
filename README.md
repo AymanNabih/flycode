@@ -9,9 +9,9 @@ FruitFlyCode: A new fruit fly-based algorithm implementation and comparison  wit
    1. [Fly-LSH](#31-Fly-LSH)
    2. [BuzzHash](#32-BuzzHash)
    3. [FAISS (by Facebook AI Research)](#33-FAISS-(by-Facebook-AI-Research))
-   4. [A neural algorithm for a fundamental computing problem](#34-A neural algorithm for a fundamental computing problem)
-   5. [A clustering neural network model of insect olfaction](#35-A clustering neural network model of insect olfaction)
-4. [The proposed Fruit Fly code](#4-The proposed Fruit Fly code)
+   4. [A neural algorithm for a fundamental computing problem](#34-A-neural-algorithm-for-a-fundamental-computing-problem)
+   5. [A clustering neural network model of insect olfaction](#35-A-clustering-neural-network-model-of-insect-olfaction)
+4. [The proposed Fruit Fly code](#4-The-proposed-FruitFly-code)
 5. [References](#5-references)
 
    
