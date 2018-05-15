@@ -125,7 +125,7 @@ Paper: https://www.biorxiv.org/content/early/2018/01/27/226746
 [1] Jupyter Notebook Data Science Stack
 - https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook
 
-[2] Dasgupta, S., C. F. Stevens, and S. Navlakha (2017). *A neural algorithm for a fundamental computing problem*. Science, 358, 6364:793-796.
+[2] Dasgupta, S., C. F. Stevens, and S. Navlakha (2017). **A neural algorithm for a fundamental computing problem**. Science, 358, 6364:793-796.
 - http://science.sciencemag.org/content/358/6364/793
 
 [3] An implementation of efficient LSH, inspired by fruit fly brain algorithm in [2]
@@ -138,5 +138,5 @@ Paper: https://www.biorxiv.org/content/early/2018/01/27/226746
 [5] Facebook AI Research: FAISS library comparison with the "Fly algorithm" in [2]
 - https://github.com/facebookresearch/faiss/wiki/Comparison-with-LSH
 
-[6] Pehlevan, C., A. Genkin, D. B. Chklovskii (2018). *A clustering neural network model of insect olfaction*.
+[6] Pehlevan, C., A. Genkin, D. B. Chklovskii (2018). **A clustering neural network model of insect olfaction**.
 - https://www.biorxiv.org/content/early/2018/01/27/226746
