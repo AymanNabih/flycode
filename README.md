@@ -44,7 +44,7 @@ Here is how I configured the software platform to run a multi-language environme
 
 ## 3. Configuring fruit fly-based codes available on the literature
 
-Here I'll show how to configure the environment to run and test at least (5) implementations written in Python, Julia and other languages for comparison purposes
+Here I'll show how to configure the environment to run and test at least (5) implementations written in Python, Julia and other languages for comparison purposes.
 
 **3.1 Fly-LSH**
 
