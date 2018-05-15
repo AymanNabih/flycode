@@ -1,29 +1,37 @@
 FruitFlyCode: A new fruit fly-based algorithm implementation and comparison  with others codes already available
 ================================================================================================================
 
-   [Prerequisites](#prerequisites)
-1. [Setting the software stack](#1-setting-the-software-stack)
-   1. [Installing Docker Community Edition](#11-installing-docker-community-edition)
-   2. [Installing Jupyter Notebook Data Science Stack](#12-Installing-Jupyter-Notebook-Data-Science-Stack)
-2. [Configuring fruit fly-based codes available on the literature](#2-Configuring-fruit-fly-based-codes-available-on-the-literature)
+1. [Hardware](#hardware)
+2. [Setting the software stack](#2-setting-the-software-stack)
+   1. [Installing Docker Community Edition](#21-installing-docker-community-edition)
+   2. [Installing Jupyter Notebook Data Science Stack](#22-Installing-Jupyter-Notebook-Data-Science-Stack)
+3. [Configuring fruit fly-based codes available on the literature](#3-Configuring-fruit-fly-based-codes-available-on-the-literature)
+   1. [Fly-LSH](#31-Fly-LSH)
+   2. [BuzzHash](#32-BuzzHash)
+   3. [FAISS (by Facebook AI Research)](#33-FAISS-(by-Facebook-AI-Research))
+   4. [A neural algorithm for a fundamental computing problem](#34-A neural algorithm for a fundamental computing problem)
+   5. [A clustering neural network model of insect olfaction](#35-A clustering neural network model of insect olfaction)
+4. [The proposed Fruit Fly code](#4-The proposed Fruit Fly code)
+5. [References](#5-references)
 
-# Prerequisites
-- Computer with Linux or OSX
-- Torch-7
-- For training, an NVIDIA GPU is strongly recommended for speed. CPU is supported but training is very slow.
+   
+# 1. Hardware
+The code shown here has been tested on Ubuntu 16.04 LTS, the hardware configuration is detailed as follow:
+- 1x Processor Intel Core i7-8700K CPU @ 3.7GHz (6 cores, 12 threads)
+- 4x Memory 8 GB DIMM DDR4 2400 MHz (32 GB RAM)
+- 2x GeForce GTX 1080 Ti, 11 Gbps, 11 GB GDDR5X, 3584 CUDA cores, 352-bit, 484 GB/sec (7168 CUDA cores)
+- 1x SSD 512 GB for OS
+- 1x HDD 4 TB for storage
 
 
-
-# 1. Setting the software stack
+# 2. Setting the software stack
 Here is how I configured the software platform to run a multi-language environment.
 
-Note: This code has been tested on Ubuntu 16.04 LTS.
-
-**1.1 Installing Docker Community Edition**
+**2.1 Installing Docker Community Edition**
 
 - You can check out this procedure to install Docker CE: https://github.com/mchancan/ubuntu-install/blob/master/docker/README.md
 
-**1.2 Installing Jupyter Notebook Data Science Stack**
+**2.2 Installing Jupyter Notebook Data Science Stack**
 
 - Here is how this Docker container works: https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook
 
@@ -34,11 +42,11 @@ Note: This code has been tested on Ubuntu 16.04 LTS.
 
 
 
-## 2. Configuring fruit fly-based codes available on the literature
+## 3. Configuring fruit fly-based codes available on the literature
 
 Here I'll show how to configure the environment to run and test at least (5) implementations written in Python, Julia and other languages for comparison purposes
 
-**2.1 Fly-LSH**
+**3.1 Fly-LSH**
 
 Source: [A Python implementation of efficient LSH inspired by fruit fly brain](https://github.com/dataplayer12/Fly-LSH)
 
@@ -56,7 +64,7 @@ Source: [A Python implementation of efficient LSH inspired by fruit fly brain](h
       conda list
 - Testing the Fly-LSH notebook: From the Jupyter Notebook, you can open `notebook.ipynb` on the path `work/Fly-LSH/` and then you can try to execute the code and see how it works.
 
-**2.2 BuzzHash**
+**3.2 BuzzHash**
 
 Source: [A Julia package based on the paper: A neural algorithm for a fundamental computing problem. Science, 358, 6364:793-796](https://github.com/WilCrofter/BuzzHash)
 
@@ -86,19 +94,19 @@ Source: [A Julia package based on the paper: A neural algorithm for a fundamenta
 
 - Testing the Buzz-Hash notebooks: From the Jupyter Notebook, you can open `usage.ipynb and` or `inverse.ipynb` on the path `work/Buzz-Hash/` and then you can try to execute the code and see how it works.
 
-**2.3 FAISS (Facebook AI Research)**
+**3.3 FAISS (by Facebook AI Research)**
 
 Source: [Facebook AI Research: FAISS library comparison with the "Fly algorithm"](https://github.com/facebookresearch/faiss/wiki/Comparison-with-LSH)
 
 - Note: The code is still in progress, according Facebook AI Research team.
 
-**2.4 A neural algorithm for a fundamental computing problem**
+**3.4 A neural algorithm for a fundamental computing problem**
 
 Paper: http://science.sciencemag.org/content/358/6364/793
 
 - Note: We have required the access to the code and will see what happen. Code and data at https://bitbucket.org/navlakha/flylsh is with "access denied." 
 
-**2.5 A clustering neural network model of insect olfaction**
+**3.5 A clustering neural network model of insect olfaction**
 
 Paper: https://www.biorxiv.org/content/early/2018/01/27/226746
 
@@ -106,13 +114,13 @@ Paper: https://www.biorxiv.org/content/early/2018/01/27/226746
 
 
 
-## 3. The proposed Fruit Fly code
+## 4. The proposed Fruit Fly code
 
 - Under development...
 
 
 
-## 4. References
+## 5. References
 
 [1] Jupyter Notebook Data Science Stack
 - https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook
