@@ -1,7 +1,7 @@
 FruitFlyCode: A new fruit fly-based algorithm implementation and comparison  with others codes already available
 ================================================================================================================
 
-[Prerequisites](#0-prerequisites)
+   [Prerequisites](#prerequisites)
 1. [Setting the software stack](#1-setting-the-software-stack)
    1. [Installing Docker Community Edition](#11-installing-docker-community-edition)
    2. [Installing Jupyter Notebook Data Science Stack](#12-Installing-Jupyter-Notebook-Data-Science-Stack)
