@@ -1,15 +1,29 @@
-# FruitFlyCode: A new fruit fly-based algorithm implementation and comparison  with others codes already available
+FruitFlyCode: A new fruit fly-based algorithm implementation and comparison  with others codes already available
+================================================================================================================
 
-## 1. Setting-up the software stack
+0. [Prerequisites](#0-prerequisites)
+1. [Setting the software stack](#1-setting-the-software-stack)
+   1. [Installing Docker Community Edition](#11-installing-docker-community-edition)
+   2. [Installing Jupyter Notebook Data Science Stack](#12-Installing-Jupyter-Notebook-Data-Science-Stack)
+2. [Configuring fruit fly-based codes available on the literature](#2-Configuring-fruit-fly-based-codes-available-on-the-literature)
+
+# 0. Prerequisites
+- Computer with Linux or OSX
+- Torch-7
+- For training, an NVIDIA GPU is strongly recommended for speed. CPU is supported but training is very slow.
+
+
+
+# 1. Setting the software stack
 Here is how I configured the software platform to run a multi-language environment.
 
 Note: This code has been tested on Ubuntu 16.04 LTS.
 
-**1.1. Installing Docker Community Edition**
+**1.1 Installing Docker Community Edition**
 
 - You can check out this procedure to install Docker CE: https://github.com/mchancan/ubuntu-install/blob/master/docker/README.md
 
-**1.2. Installing Jupyter Notebook Data Science Stack**
+**1.2 Installing Jupyter Notebook Data Science Stack**
 
 - Here is how this Docker container works: https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook
 
@@ -20,11 +34,11 @@ Note: This code has been tested on Ubuntu 16.04 LTS.
 
 
 
-## 2. Configuring fruit fly-based codes available on the literature for comparison purposes
+## 2. Configuring fruit fly-based codes available on the literature
 
-Here I'll show how to configure the environment to run and test at least (5) implementations written in Python and Julia languages
+Here I'll show how to configure the environment to run and test at least (5) implementations written in Python, Julia and other languages for comparison purposes
 
-**2.1. Fly-LSH**
+**2.1 Fly-LSH**
 
 Source: [A Python implementation of efficient LSH inspired by fruit fly brain](https://github.com/dataplayer12/Fly-LSH)
 
@@ -42,7 +56,7 @@ Source: [A Python implementation of efficient LSH inspired by fruit fly brain](h
       conda list
 - Testing the Fly-LSH notebook: From the Jupyter Notebook, you can open `notebook.ipynb` on the path `work/Fly-LSH/` and then you can try to execute the code and see how it works.
 
-**2.2. BuzzHash**
+**2.2 BuzzHash**
 
 Source: [A Julia package based on the paper: A neural algorithm for a fundamental computing problem. Science, 358, 6364:793-796](https://github.com/WilCrofter/BuzzHash)
 
@@ -72,19 +86,19 @@ Source: [A Julia package based on the paper: A neural algorithm for a fundamenta
 
 - Testing the Buzz-Hash notebooks: From the Jupyter Notebook, you can open `usage.ipynb and` or `inverse.ipynb` on the path `work/Buzz-Hash/` and then you can try to execute the code and see how it works.
 
-**2.3. FAISS (Facebook AI Research)**
+**2.3 FAISS (Facebook AI Research)**
 
 Source: [Facebook AI Research: FAISS library comparison with the "Fly algorithm"](https://github.com/facebookresearch/faiss/wiki/Comparison-with-LSH)
 
 - Note: The code is still in progress, according Facebook AI Research team.
 
-**2.4. A neural algorithm for a fundamental computing problem**
+**2.4 A neural algorithm for a fundamental computing problem**
 
 Paper: http://science.sciencemag.org/content/358/6364/793
 
 - Note: We have required the access to the code and will see what happen. Code and data at https://bitbucket.org/navlakha/flylsh is with "access denied." 
 
-**2.5. A clustering neural network model of insect olfaction**
+**2.5 A clustering neural network model of insect olfaction**
 
 Paper: https://www.biorxiv.org/content/early/2018/01/27/226746
 
