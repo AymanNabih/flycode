@@ -2,7 +2,7 @@
 
 
 
-## Preparing the environment
+## Setting-up the software stack
 Here is how I configured the software platform to run a multi-language environment.
 
 Note: This code has been tested on Ubuntu 16.04 LTS.
@@ -22,9 +22,9 @@ Note: This code has been tested on Ubuntu 16.04 LTS.
 
 
 
-## Setting up fruit fly-based codes available on the literature
+## Configuring fruit fly-based codes available on the literature
 
-**3. Configuring and testing other codes to compare**
+**3. Configuring and testing other codes for comparison purposes**
 
 Here I'll show how to configure the environment to run and test at least (5) implementations written in Python and Julia languages
 
