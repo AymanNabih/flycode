@@ -1,13 +1,13 @@
 FruitFlyCode: A new fruit fly-based algorithm implementation and comparison  with others codes already available
 ================================================================================================================
 
-0. [Prerequisites](#0-prerequisites)
+[Prerequisites](#0-prerequisites)
 1. [Setting the software stack](#1-setting-the-software-stack)
    1. [Installing Docker Community Edition](#11-installing-docker-community-edition)
    2. [Installing Jupyter Notebook Data Science Stack](#12-Installing-Jupyter-Notebook-Data-Science-Stack)
 2. [Configuring fruit fly-based codes available on the literature](#2-Configuring-fruit-fly-based-codes-available-on-the-literature)
 
-# 0. Prerequisites
+# Prerequisites
 - Computer with Linux or OSX
 - Torch-7
 - For training, an NVIDIA GPU is strongly recommended for speed. CPU is supported but training is very slow.
