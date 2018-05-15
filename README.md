@@ -1,5 +1,4 @@
 # FruitFlyCode: A new fruit fly-based algorithm implementation and comparison  with others codes already available
-
 ---
 
 ## 1. Setting-up the software stack
