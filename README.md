@@ -87,9 +87,8 @@ Source: [A Python implementation of efficient LSH inspired by fruit fly brain](h
    Source: https://anaconda.org/conda-forge/tensorflow
 
       conda install -c conda-forge tensorflow 
-
-- (Optional) Verifying packages installation:
       
+      # Verifying packages installation
       conda list
 
 - Testing the Fly-LSH notebook: From the Jupyter Notebook, you can open `notebook.ipynb` on the path `work/Fly-LSH/` and then you can try to execute the code and see how it works.
