@@ -84,6 +84,8 @@ Source: [A Python implementation of efficient LSH inspired by fruit fly brain](h
       
 - (If you are on Anaconda) Install ´tensorflow´ from a new Terminal window:
 
+   Source: https://anaconda.org/conda-forge/tensorflow
+
       conda install -c conda-forge tensorflow 
 
 - (Optional) Verifying packages installation:
