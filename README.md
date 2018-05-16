@@ -27,11 +27,7 @@ The code shown here has been tested on Ubuntu 16.04 LTS, the hardware configurat
 # 2. Setting the software stack
 Here is how I configured the software platform to run a multi-language environment.
 
-I have configured and tested the software I need using two (2) environments:
-
-   a) Docker containers
-
-   b) Anaconda
+I have configured and tested the software I need using two (2) environments: a) Docker containers, b) Anaconda.
 
 First, let's see how to configure a Docker container.
 
@@ -50,11 +46,16 @@ First, let's see how to configure a Docker container.
       sudo docker run -it -p 8888:8888 jupyter/datascience-notebook
 - After downloading, the container will be started, just follow the instructions on terminal.
 
-Now, we will use Anaconda to build our environment:
+Now, we'll use Anaconda to build our environment:
 
 ## 2.2 Using Anaconda
 
-## Installing Anaconda
+### Installing Anaconda
+
+Source: 
+
+- https://haroldsoh.com/2016/04/28/set-up-anaconda-ipython-tensorflow-julia-on-a-google-compute-engine-vm/
+- http://people.duke.edu/~ccc14/cspy/Local_Installation.html
 
 - Please check out the procedure: 
 
