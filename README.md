@@ -3,8 +3,8 @@ FruitFlyCode: A new fruit fly-based algorithm implementation and comparison  wit
 
 1. [Hardware](#1-hardware)
 2. [Setting the software stack](#2-setting-the-software-stack)
-   1. [Installing Docker Community Edition](#21-installing-docker-community-edition)
-   2. [Installing Jupyter Notebook Data Science Stack](#22-Installing-Jupyter-Notebook-Data-Science-Stack)
+   1. [Using Docker Community Edition](#21-using-docker-community-edition)
+   2. [Using Anaconda](#22-using-anaconda)
 3. [Configuring fruit fly-based codes available on the literature](#3-Configuring-fruit-fly-based-codes-available-on-the-literature)
    1. [Fly-LSH](#31-Fly-LSH)
    2. [BuzzHash](#32-BuzzHash)
@@ -27,11 +27,20 @@ The code shown here has been tested on Ubuntu 16.04 LTS, the hardware configurat
 # 2. Setting the software stack
 Here is how I configured the software platform to run a multi-language environment.
 
-## 2.1 Installing Docker Community Edition
+I have configured and tested the software I need using two (2) environments:
+
+a) Docker containers
+b) Anaconda
+
+First, let's see how to configure a Docker container.
+
+## 2.1 Using Docker Community Edition
+
+### Installing Docker CE
 
 - You can check out this procedure to install Docker CE: https://github.com/mchancan/ubuntu-install/blob/master/docker/README.md
 
-## 2.2 Installing Jupyter Notebook Data Science Stack
+### Installing Jupyter Notebook Data Science Stack
 
 - Here is how this Docker container works: https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook
 
@@ -40,7 +49,13 @@ Here is how I configured the software platform to run a multi-language environme
       sudo docker run -it -p 8888:8888 jupyter/datascience-notebook
 - After downloading, the container will be started, just follow the instructions on terminal.
 
+Now, we will use Anaconda to build our environment:
 
+## 2.2 Using Anaconda
+
+## Installing Anaconda
+
+- Please check out the procedure: 
 
 # 3. Configuring fruit fly-based codes available on the literature
 
