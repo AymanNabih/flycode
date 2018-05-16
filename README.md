@@ -80,9 +80,9 @@ Source: [A Julia package based on the paper: A neural algorithm for a fundamenta
       julia
       
       
-      Ṕkg.add("MNIST")
+      Pkg.add("MNIST")
       
-      Ṕkg.add("Plots")
+      Pkg.add("Plots")
       
       Pkg.clone(pwd(), "BuzzHash")
       
