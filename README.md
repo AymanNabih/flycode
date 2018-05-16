@@ -29,8 +29,9 @@ Here is how I configured the software platform to run a multi-language environme
 
 I have configured and tested the software I need using two (2) environments:
 
-a) Docker containers
-b) Anaconda
+   a) Docker containers
+
+   b) Anaconda
 
 First, let's see how to configure a Docker container.
 
