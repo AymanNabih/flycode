@@ -50,14 +50,19 @@ Now, we'll use Anaconda to build our environment:
 
 ## 2.2 Using Anaconda
 
-### Installing Anaconda
+### Install Anaconda
 
-Source: 
+-  Follow the instructions here: https://github.com/mchancan/ubuntu-install/blob/master/anaconda.md
+
+### Install Julia Language
+
+- Follow instructions here: https://github.com/mchancan/ubuntu-install/blob/master/julia.md
+
+Other references about Julia Lang. and Anaconda:
 
 - https://haroldsoh.com/2016/04/28/set-up-anaconda-ipython-tensorflow-julia-on-a-google-compute-engine-vm/
 - http://people.duke.edu/~ccc14/cspy/Local_Installation.html
 
-- Please check out the procedure: 
 
 # 3. Configuring fruit fly-based codes available on the literature
 
