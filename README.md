@@ -169,3 +169,13 @@ Paper: https://www.biorxiv.org/content/early/2018/01/27/226746
 
 [6] Pehlevan, C., A. Genkin, D. B. Chklovskii (2018). **A clustering neural network model of insect olfaction**.
 - https://www.biorxiv.org/content/early/2018/01/27/226746
+
+## About me
+
+Visit my Google Scholar, GitHub, LinkedIn and other profiles:
+
+[Google Scholar Profile](https://scholar.google.com/citations?hl=es&user=iK7xhJ4AAAAJ)
+[GitHub Repository](https://github.com/mchancan)
+[LinkedIn Profile](https://www.linkedin.com/in/mchancan/)
+[Twitter Profile](https://twitter.com/mchancan)
+[My webpage](https://sites.google.com/view/mchancan/research)
