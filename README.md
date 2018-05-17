@@ -43,7 +43,7 @@ First, let's see how to configure a Docker container.
 
 - After that installation, the command I used to download the image and run the container is:
 
-      sudo docker run -it -p 8888:8888 jupyter/datascience-notebook
+      sudo docker run -it --network -p 8888:8888 jupyter/datascience-notebook
 - The container will be started, just follow the instructions on terminal.
 
 ## 2.2 Using Anaconda
