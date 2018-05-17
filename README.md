@@ -1,4 +1,4 @@
-FruitFlyCode: A new fruit fly brain-based algorithm implementation and comparison  with others codes already available
+FruitFlyCode: A new fruit fly's brain-based algorithm implementation and comparison with other codes already available
 ================================================================================================================
 
 1. [Hardware](#1-hardware)
