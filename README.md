@@ -29,9 +29,9 @@ Here is how I configured the software platform to run a multi-language environme
 
 I have configured and tested the software I need using two (2) environments: a) Docker containers, b) Anaconda.
 
-First, let's see how to configure a Docker container.
-
 ## 2.1 Using Docker Community Edition
+
+First, let's see how to configure a Docker container.
 
 ### Installing Docker CE
 
@@ -41,14 +41,14 @@ First, let's see how to configure a Docker container.
 
 - Here is how this Docker container works: https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook
 
-- The command I used to install the container:
+- After that installation, the command I used to download the image and run the container is:
 
       sudo docker run -it -p 8888:8888 jupyter/datascience-notebook
-- After downloading, the container will be started, just follow the instructions on terminal.
-
-Now, we'll use Anaconda to build our environment:
+- The container will be started, just follow the instructions on terminal.
 
 ## 2.2 Using Anaconda
+
+Now, let's se how to use Anaconda distribution to build our environment.
 
 ### Install Anaconda
 
@@ -58,7 +58,7 @@ Now, we'll use Anaconda to build our environment:
 
 - Follow instructions here: https://github.com/mchancan/ubuntu-install/blob/master/julia.md
 
-Other references about Julia Lang. and Anaconda:
+Other references about Julia Language and Anaconda:
 
 - https://haroldsoh.com/2016/04/28/set-up-anaconda-ipython-tensorflow-julia-on-a-google-compute-engine-vm/
 - http://people.duke.edu/~ccc14/cspy/Local_Installation.html
