@@ -8,10 +8,10 @@ FruitFlyCode: A new fruit fly-based algorithm implementation and comparison  wit
 3. [Configuring fruit fly-based codes available on the literature](#3-configuring-fruit-fly-based-codes-available-on-the-literature)
    1. [Fly-LSH](#31-fly-lsh)
    2. [BuzzHash](#32-buzzhash)
-   3. [FAISS (by Facebook AI Research)](#33-faiss-(by-facebook-ai-research))
+   3. [FAISS (by Facebook AI Research)](#33-faiss-(-by-facebook-ai-research-)-)
    4. [A neural algorithm for a fundamental computing problem](#34-a-neural-algorithm-for-a-fundamental-computing-problem)
    5. [A clustering neural network model of insect olfaction](#35-a-clustering-neural-network-model-of-insect-olfaction)
-4. [The proposed Fruit Fly code](#4-the-proposed-fruitfly-code)
+4. [The proposed Fruit Fly code](#4-the-proposed-fruit-fly-code)
 5. [References](#5-references)
 
    
@@ -43,7 +43,7 @@ First, let's see how to configure a Docker container.
 
 - After Docker installation, the command I used to download the image and run the container is:
 
-      sudo docker run -it --network -p 8888:8888 jupyter/datascience-notebook
+      sudo docker run -it --network host -p 8888:8888 jupyter/datascience-notebook
 - The container will be started, just follow the instructions on terminal.
 
 ## 2.2 Using Anaconda
