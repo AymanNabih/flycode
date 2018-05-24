@@ -139,8 +139,8 @@ Paper: http://science.sciencemag.org/content/358/6364/793
 
 Paper: https://www.biorxiv.org/content/early/2018/01/27/226746
 
-- Note: The code will by posted to GitHub, according to the authors of the paper.
-
+- Update (May 24, 2018): Code is now available here: https://github.com/alexgenkin/Neural_Clustering
+- Note (May 10, 2018): The code will by posted to GitHub, according to the authors of the paper.
 
 
 # 4. The proposed Fruit Fly code
