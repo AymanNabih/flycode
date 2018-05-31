@@ -25,7 +25,7 @@ The code shown here has been tested on Ubuntu 16.04 LTS, the hardware configurat
 
 
 # 2. Setting the software stack
-Here is how I configured the software platform to run a multi-language environment.
+Here is how I configured the software platform to run a multi-language environment, including Python 2/3, Julia, Octave, TensorFlow and others, from a Jupyter Notebook.
 
 I have configured and tested the software I need using two (2) environments: a) Docker containers, b) Anaconda.
 
