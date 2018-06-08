@@ -82,7 +82,7 @@ Source: [A Python implementation of efficient LSH inspired by fruit fly brain](h
       cd Fly-LSH/
       conda install --yes --file requirements.txt
       
-- (If you are on Anaconda) Install ´tensorflow´ from a new Terminal window:
+- (If you are on Anaconda) Install `tensorflow` from a new Terminal window:
 
    Source: https://anaconda.org/conda-forge/tensorflow
 
